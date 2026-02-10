@@ -1,77 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from '@/components/Header'
-import Marquee from '@/components/Marquee'
-import Hero from '@/components/Hero'
-import Features from '@/components/Features'
-import SeacrhSection from '@/components/SearchSection'
-import AdvantagesGrid from '@/components/AdvantegesGrid'
-import TextStatement from './components/TextSection'
-import HighlightSplit from './components/HighlightSplit'
-import WalletAuthority from './components/WalletAuthority'
-import InfoGrid from './components/InfoGrid'
-import WideSplitSection from './components/WideSplitSection'
-import Footer from './components/Footer'
+import { Routes, Route } from 'react-router-dom'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
+import ScrollToTop from '@/components/layout/ScrollToTop'
+import FloatingCTA from '@/components/shared/FloatingCTA'
+import LandingPage from '@/pages/LandingPage'
+import PrivacyPolicyPage from '@/pages/PrivacyPolicyPage'
 
 function App() {
-    return (
-        <>
-            <div className="min-h-screen dark:bg-cyber-black">
-                <Header />
-                <Marquee />
-                <Hero />
-                <Features />
-                <SeacrhSection />
-                <AdvantagesGrid />
-                <TextStatement
-                    title="Seamless, Secure, Effortless, Fast, Reliable, and Intuitive"
-                    description="Experience seamless access across mobile and desktop with robust,
-                    user-friendly tools designed to enhance your complete Web3 experience—
-                    track assets, view rewards, and perform secure swaps anytime, anywhere,
-                    backed by dependable support and real-time updates."
-                />
-                <HighlightSplit 
-                    title="Quickly and safely fund your wallet from exchanges with simple, secure transfers"
-                    description="Take full control of your wallet—skip the complications and deposit directly from leading exchanges like Binance, Coinbase, and more with ease and security."
-                    image="Block Chain"
-                    order="order-1"
-                    bgColor="bg-cyber-purple py-16"
-                />
-                <TextStatement
-                    title="Protect the confidentiality and security of your digital wallet"
-                    description="Stay confident with cutting-edge privacy and security 
-                    features that safeguard your data and digital assets, all while keeping
-                    you fully in control."
-                />
-                <HighlightSplit 
-                    title="Complete ownership and control of your wallet assets"
-                    description="Your wallet is secured with state-of-the-art protection, but only you possess the private keys and recovery phrase — they stay completely out of our reach at all times."
-                    image="Ownership"
-                    order="order-2"
-                    bgColor = "bg-cyber-purple py-16"
-                />
-                <TextStatement
-                    title="Safeguard your privacy and stay fully protected"
-                    description="Maintain full control through our strong privacy and security protocols, 
-                    keeping your data and digital assets safe and secure."
-                />
-                <WalletAuthority />
-                <InfoGrid />
-                <HighlightSplit 
-                    title="Powered by Reliability"
-                    description="We strongly believe in the strength of community collaboration 
-                    to create better results for all. Our platform empowers wallet developers 
-                    to easily build apps and wallets, connect with millions of users,
-                    and concentrate on innovation—without the hassle of handling complex technical foundations."
-                    image="Reliability"
-                    bgColor = "bg-cyber-black"
-                />
-                <WideSplitSection />
-                <Footer />
-            </div>
-        </>
-    )
+  return (
+    <div className="min-h-screen bg-cyber-black text-white">
+      <ScrollToTop />
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        </Routes>
+      </main>
+      <Footer />
+      <FloatingCTA />
+    </div>
+  )
 }
 
 export default App
