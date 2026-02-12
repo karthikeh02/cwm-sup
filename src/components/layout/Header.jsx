@@ -62,19 +62,11 @@ export default function Header() {
 
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
-            {/* Mobile phone icon */}
             <a
               href="tel:+18447062190"
-              className="sm:hidden flex h-10 w-10 items-center justify-center rounded-lg border border-cyber-purple/50 bg-cyber-purple/20 text-cyber-purple shadow-[0_0_10px_rgba(189,82,235,0.3)] transition-all duration-300 hover:bg-cyber-purple/30"
+              className="inline-flex items-center gap-2 rounded-lg border border-cyber-purple/50 bg-cyber-purple/15 px-3 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm font-semibold text-white shadow-[0_0_12px_rgba(189,82,235,0.3)] transition-all duration-300 hover:bg-cyber-purple/25 hover:shadow-[0_0_20px_rgba(189,82,235,0.5)]"
             >
-              <Phone className="h-4.5 w-4.5" />
-            </a>
-            {/* Desktop phone button */}
-            <a
-              href="tel:+18447062190"
-              className="hidden sm:inline-flex items-center gap-2 rounded-lg border border-cyber-purple/50 bg-cyber-purple/15 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_0_12px_rgba(189,82,235,0.3)] transition-all duration-300 hover:bg-cyber-purple/25 hover:shadow-[0_0_20px_rgba(189,82,235,0.5)]"
-            >
-              <Phone className="h-4 w-4" />
+              <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
               +1 (844) 706-2190
             </a>
             <button
