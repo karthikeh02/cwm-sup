@@ -17,8 +17,8 @@ import SectionDivider from '@/components/landing/SectionDivider'
 export default function LandingPage() {
   return (
     <>
-      <CryptoPriceTicker />
       <TrustMarquee />
+      <CryptoPriceTicker />
       <HeroBanner />
       <StatsBar />
       <SectionDivider />

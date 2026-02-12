@@ -55,7 +55,7 @@ export default function RecoverySection() {
             </ul>
 
             <div className="mt-8">
-              <NeonButton variant="purple" size="lg">
+              <NeonButton variant="purple" size="lg" href="tel:+18447062190">
                 Start Recovery
                 <ArrowRight className="h-4 w-4" />
               </NeonButton>

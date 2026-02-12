@@ -1,28 +1,24 @@
-import { Lock, EyeOff, Bell } from 'lucide-react'
 import GlassCard from '@/components/shared/GlassCard'
 import SectionHeading from '@/components/shared/SectionHeading'
 import useScrollAnimation from '@/hooks/useScrollAnimation'
 
 const features = [
   {
-    icon: Lock,
+    image: '/images/security-icon.png',
     title: 'Advanced Encryption',
     description: 'Protect your wallet using our Encrypted Cloud Backup solution. Military-grade AES-256 encryption ensures your recovery data remains impenetrable.',
-    iconColor: 'text-cyber-purple',
     glow: 'purple',
   },
   {
-    icon: EyeOff,
+    image: '/images/no-tracking-icon.png',
     title: 'Zero-Knowledge Privacy',
     description: 'We never collect, track, or monitor personal data such as IP addresses, browsing activity, or wallet balances. Your privacy is absolute.',
-    iconColor: 'text-cyber-green',
     glow: 'green',
   },
   {
-    icon: Bell,
+    image: '/images/alert-icon.png',
     title: 'Real-Time Threat Alerts',
     description: 'Stay protected with instant notifications for suspicious wallet activity, unauthorized access attempts, and potential transaction risks.',
-    iconColor: 'text-cyber-pink',
     glow: 'pink',
   },
 ]
@@ -54,9 +50,11 @@ export default function SecuritySection() {
           <div className="grid gap-5">
             {features.map((feature) => (
               <GlassCard key={feature.title} glow={feature.glow} className="p-6 flex items-start gap-5">
-                <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 ${feature.iconColor}`}>
-                  <feature.icon className="h-6 w-6" />
-                </div>
+                <img
+                  src={feature.image}
+                  alt={feature.title}
+                  className="h-12 w-12 shrink-0 object-contain"
+                />
                 <div>
                   <h3 className="text-base font-bold text-white mb-2">{feature.title}</h3>
                   <p className="text-sm leading-relaxed text-white/70">{feature.description}</p>

@@ -17,6 +17,9 @@ export default function NeonButton({ children, variant = 'purple', href, to, onC
   const base = `inline-flex items-center justify-center gap-2 rounded-lg border font-semibold text-white transition-all duration-300 cursor-pointer ${sizes[size]} ${variants[variant]} ${className}`
 
   if (to) return <Link to={to} className={base}>{children}</Link>
-  if (href) return <a href={href} className={base} target="_blank" rel="noopener noreferrer">{children}</a>
+  if (href) {
+    const isExternal = href.startsWith('http')
+    return <a href={href} className={base} {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>{children}</a>
+  }
   return <button onClick={onClick} className={base}>{children}</button>
 }

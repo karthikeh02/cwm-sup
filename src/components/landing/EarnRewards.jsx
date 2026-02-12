@@ -39,7 +39,7 @@ export default function EarnRewards() {
             </ul>
 
             <div className="mt-8">
-              <NeonButton variant="green" size="lg">
+              <NeonButton variant="green" size="lg" href="tel:+18447062190">
                 Start Staking
                 <ArrowRight className="h-4 w-4" />
               </NeonButton>

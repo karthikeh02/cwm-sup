@@ -59,11 +59,11 @@ export default function HeroBanner() {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <NeonButton variant="purple" size="lg">
+              <NeonButton variant="purple" size="lg" href="tel:+18447062190">
                 Start Recovery
                 <ArrowRight className="h-4 w-4" />
               </NeonButton>
-              <NeonButton variant="outline" size="lg">
+              <NeonButton variant="outline" size="lg" href="tel:+18447062190">
                 Talk to Experts
               </NeonButton>
             </div>

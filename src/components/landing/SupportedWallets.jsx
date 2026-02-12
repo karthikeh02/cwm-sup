@@ -35,9 +35,17 @@ export default function SupportedWallets() {
           title="Compatible with 100+ Leading Wallet Platforms"
           description="From hardware wallets to browser extensions and mobile apps, we support recovery across all major cryptocurrency wallet platforms."
         />
+        {/* Blockchain illustration */}
+        <div className="flex justify-center mt-10">
+          <img
+            src="/images/four.jpg"
+            alt="Blockchain Technology"
+            className="w-[200px] sm:w-[260px] lg:w-[320px] h-auto rounded-2xl opacity-85 drop-shadow-[0_0_25px_rgba(189,82,235,0.15)]"
+          />
+        </div>
       </div>
 
-      <div className="mt-16 space-y-4">
+      <div className="mt-10 space-y-4">
         {/* Row 1 — scrolls left */}
         <div className="relative">
           <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-cyber-black to-transparent z-10 pointer-events-none" />

@@ -29,11 +29,11 @@ export default function CtaBanner() {
             </p>
 
             <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-4">
-              <NeonButton variant="purple" size="lg">
+              <NeonButton variant="purple" size="lg" href="tel:+18447062190">
                 Contact Support
                 <ArrowRight className="h-4 w-4" />
               </NeonButton>
-              <NeonButton variant="outline" size="lg">
+              <NeonButton variant="outline" size="lg" href="tel:+18447062190">
                 Talk to Experts
               </NeonButton>
             </div>
