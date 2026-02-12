@@ -61,7 +61,15 @@ export default function Header() {
           </nav>
 
           {/* CTA + Mobile Toggle */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
+            {/* Mobile phone icon */}
+            <a
+              href="tel:+18447062190"
+              className="sm:hidden flex h-10 w-10 items-center justify-center rounded-lg border border-cyber-purple/50 bg-cyber-purple/20 text-cyber-purple shadow-[0_0_10px_rgba(189,82,235,0.3)] transition-all duration-300 hover:bg-cyber-purple/30"
+            >
+              <Phone className="h-4.5 w-4.5" />
+            </a>
+            {/* Desktop phone button */}
             <a
               href="tel:+18447062190"
               className="hidden sm:inline-flex items-center gap-2 rounded-lg border border-cyber-purple/50 bg-cyber-purple/15 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_0_12px_rgba(189,82,235,0.3)] transition-all duration-300 hover:bg-cyber-purple/25 hover:shadow-[0_0_20px_rgba(189,82,235,0.5)]"
