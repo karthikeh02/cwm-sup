@@ -1,10 +1,10 @@
 import { Shield, Headphones, Users } from 'lucide-react'
 
 const items = [
-  { icon: Shield, text: 'Instant Support for Trezor, Ledger, Trust Wallet, Tangem, SafePal & More' },
+  { icon: Shield, text: 'Instant Support for All Major Digital Wallet Platforms' },
   { icon: Headphones, text: '24/7 Expert Assistance Available' },
   { icon: Users, text: 'Trusted by 14M+ Users Worldwide' },
-  { icon: Shield, text: 'Instant Support for Trezor, Ledger, Trust Wallet, Tangem, SafePal & More' },
+  { icon: Shield, text: 'Instant Support for All Major Digital Wallet Platforms' },
   { icon: Headphones, text: '24/7 Expert Assistance Available' },
   { icon: Users, text: 'Trusted by 14M+ Users Worldwide' },
 ]

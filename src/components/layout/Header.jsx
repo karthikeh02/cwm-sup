@@ -38,8 +38,8 @@ export default function Header() {
               <Shield className="h-5 w-5 text-cyber-purple" />
             </div>
             <span className="hidden sm:block text-sm font-bold tracking-wider uppercase text-white">
-              Digital Currency Wallet<br className="sm:hidden lg:block" />
-              <span className="text-cyber-purple"> Management</span>
+              Network Vault<br className="sm:hidden lg:block" />
+              <span className="text-cyber-purple"> Tech</span>
             </span>
           </Link>
 
@@ -63,11 +63,11 @@ export default function Header() {
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
             <a
-              href="tel:+18447062190"
+              href="tel:+18887690872"
               className="inline-flex items-center gap-2 rounded-lg border border-cyber-purple/50 bg-cyber-purple/15 px-4 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base font-bold text-white shadow-[0_0_12px_rgba(189,82,235,0.3)] transition-all duration-300 hover:bg-cyber-purple/25 hover:shadow-[0_0_20px_rgba(189,82,235,0.5)]"
             >
               <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
-              +1 (844) 706-2190
+              +1 (888) 769-0872
             </a>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -100,11 +100,11 @@ export default function Header() {
             </Link>
           ))}
           <a
-            href="tel:+18447062190"
+            href="tel:+18887690872"
             className="flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-medium text-cyber-purple hover:bg-white/5"
           >
             <Phone className="h-4 w-4" />
-            +1 (844) 706-2190
+            +1 (888) 769-0872
           </a>
         </div>
       </div>

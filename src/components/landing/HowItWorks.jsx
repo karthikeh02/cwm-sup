@@ -17,7 +17,7 @@ const steps = [
     number: '02',
     icon: ShieldCheck,
     title: 'Expert Assessment',
-    description: 'A certified blockchain recovery specialist reviews your case within 24 hours and prepares a secure, personalized recovery strategy.',
+    description: 'A certified recovery specialist reviews your case within 24 hours and prepares a secure, personalized recovery strategy.',
     iconColor: 'text-cyber-green',
     glow: 'green',
     borderColor: 'border-t-cyber-green',

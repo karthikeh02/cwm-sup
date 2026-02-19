@@ -5,7 +5,7 @@ const sections = [
   {
     id: 1,
     title: 'Introduction',
-    content: `At Digital Currency Wallet Management, we are committed to safeguarding the privacy and security of our users. This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our platform, services, and website. By accessing or using our services, you agree to the practices described in this policy. We encourage you to read this document carefully to understand how we handle your data.`,
+    content: `At Network Vault Tech, we are committed to safeguarding the privacy and security of our users. This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our platform, services, and website. By accessing or using our services, you agree to the practices described in this policy. We encourage you to read this document carefully to understand how we handle your data.`,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const sections = [
     content: 'We collect limited information necessary to provide and improve our services:',
     list: [
       { bold: 'Technical Information:', text: 'Device type, operating system, browser type, screen resolution, and general connection data used to optimize your experience.' },
-      { bold: 'Transaction Information:', text: 'Blockchain transaction data, wallet addresses, and transaction hashes that you voluntarily submit when using our recovery and management services. We do not store private keys or seed phrases.' },
+      { bold: 'Service Information:', text: 'Account activity data, platform identifiers, and service records that you voluntarily submit when using our recovery and management services. We do not store security credentials or recovery phrases.' },
       { bold: 'Communication Information:', text: 'Messages, support requests, and correspondence you send to our team through our contact channels.' },
       { bold: 'Usage Analytics:', text: 'Anonymous, aggregated data about how users interact with our platform, including page views, feature usage, and session duration. This data cannot identify individual users.' },
     ],
@@ -23,7 +23,7 @@ const sections = [
     title: 'How We Use Your Information',
     content: 'We use the information we collect for the following purposes:',
     list: [
-      { text: 'To provide, maintain, and improve our wallet recovery and management services.' },
+      { text: 'To provide, maintain, and improve our account recovery and management services.' },
       { text: 'To communicate with you regarding support requests, service updates, and important security notifications.' },
       { text: 'To detect, prevent, and address security threats, fraud, and unauthorized activity on our platform.' },
       { text: 'To analyze anonymous usage patterns and optimize the performance, reliability, and user experience of our services.' },
@@ -36,7 +36,7 @@ const sections = [
     content: 'Protecting your data is foundational to our mission. We employ multiple layers of security:',
     list: [
       { bold: 'End-to-End Encryption:', text: 'All data transmitted between your device and our servers is encrypted using TLS 1.3. Sensitive data at rest is protected with AES-256 encryption.' },
-      { bold: 'Private Key Policy:', text: 'We never collect, store, transmit, or access your private keys, seed phrases, or recovery phrases. These remain exclusively under your control at all times.' },
+      { bold: 'Security Credential Policy:', text: 'We never collect, store, transmit, or access your security credentials, recovery phrases, or sensitive authentication data. These remain exclusively under your control at all times.' },
       { bold: 'Real-Time Threat Monitoring:', text: 'Our systems continuously monitor for suspicious activity, unauthorized access attempts, and potential security threats with automated alerting.' },
       { bold: 'Encrypted Cloud Backup:', text: 'If you opt into our backup services, your data is encrypted client-side before being stored in our secure, redundant cloud infrastructure.' },
       { bold: 'Access Controls:', text: 'Internal access to user data is strictly limited to authorized personnel on a need-to-know basis, with all access logged and audited.' },
@@ -50,13 +50,13 @@ const sections = [
       { text: 'When required by law, legal process, or enforceable governmental request.' },
       { text: 'With trusted service partners who assist in delivering our services, bound by strict confidentiality agreements.' },
       { text: 'With analytics providers who process anonymized, aggregated data that cannot identify individual users.' },
-      { text: 'To protect the rights, property, or safety of Digital Currency Wallet Management, our users, or the public.' },
+      { text: 'To protect the rights, property, or safety of Network Vault Tech, our users, or the public.' },
     ],
   },
   {
     id: 6,
     title: 'Third-Party Services and Links',
-    content: `Our platform may contain links to third-party websites, services, or applications that are not operated by Digital Currency Wallet Management. We are not responsible for the privacy practices, content, or security of these external services. We encourage you to review the privacy policies of any third-party service before providing your information.`,
+    content: `Our platform may contain links to third-party websites, services, or applications that are not operated by Network Vault Tech. We are not responsible for the privacy practices, content, or security of these external services. We encourage you to review the privacy policies of any third-party service before providing your information.`,
   },
   {
     id: 7,
@@ -112,7 +112,7 @@ export default function PrivacyPolicyPage() {
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">
             Privacy Policy
           </h1>
-          <p className="mt-3 text-lg text-white/50">Digital Currency Wallet Management</p>
+          <p className="mt-3 text-lg text-white/50">Network Vault Tech</p>
           <p className="mt-2 text-sm text-white/30">Last Updated: February 2026</p>
         </div>
       </section>
@@ -163,7 +163,7 @@ export default function PrivacyPolicyPage() {
             )}
             {s.contact && (
               <div className="mt-4 space-y-2 text-sm text-white/55">
-                <p>Phone: <a href="tel:+18447062190" className="text-white/70 hover:text-cyber-purple transition-colors">+1 (844) 706-2190</a></p>
+                <p>Phone: <a href="tel:+18887690872" className="text-white/70 hover:text-cyber-purple transition-colors">+1 (888) 769-0872</a></p>
                 <p>Response Time: <span className="text-white/70">We aim to respond to all privacy-related inquiries within 48 hours.</span></p>
               </div>
             )}

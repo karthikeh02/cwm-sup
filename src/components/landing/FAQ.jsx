@@ -6,31 +6,31 @@ import useScrollAnimation from '@/hooks/useScrollAnimation'
 const faqs = [
   {
     question: 'What types of wallets do you support for recovery?',
-    answer: 'We support recovery for over 100 wallet platforms including hardware wallets (Trezor, Ledger, SafePal, Tangem, KeepKey), software wallets (MetaMask, Trust Wallet, Exodus, Phantom, Atomic Wallet), and exchange wallets (Coinbase, Binance). If your wallet is not listed, contact our team for a personalized assessment.',
+    answer: 'We support recovery for over 100 wallet platforms including hardware devices, software applications, web-based platforms, and mobile apps. If your wallet type is not listed, contact our team for a personalized assessment.',
   },
   {
     question: 'How long does the recovery process typically take?',
-    answer: 'Most recovery cases are resolved within 24 to 72 hours. Simple cases such as locked accounts or forgotten passwords can often be resolved same-day. More complex situations involving compromised wallets or multi-signature setups may take up to 5 business days. You will receive status updates throughout the entire process.',
+    answer: 'Most recovery cases are resolved within 24 to 72 hours. Simple cases such as locked accounts or forgotten passwords can often be resolved same-day. More complex situations involving compromised wallets or advanced security configurations may take up to 5 business days. You will receive status updates throughout the entire process.',
   },
   {
     question: 'Is my personal and wallet data kept secure during recovery?',
-    answer: 'Absolutely. We use military-grade AES-256 encryption throughout the recovery process. Our zero-knowledge privacy architecture means we never store your private keys, seed phrases, or sensitive wallet data on our servers. All communication channels are end-to-end encrypted.',
+    answer: 'Absolutely. We use military-grade AES-256 encryption throughout the recovery process. Our zero-knowledge privacy architecture means we never store your security credentials or sensitive account data on our servers. All communication channels are end-to-end encrypted.',
   },
   {
     question: 'What if my wallet has been compromised or hacked?',
-    answer: 'If your wallet has been compromised, our forensic recovery team can help secure remaining assets, trace unauthorized transactions, and guide you through the process of regaining control. Time is critical in these cases — contact our 24/7 support line immediately for priority handling.',
+    answer: 'If your wallet has been compromised, our specialized security team can help secure remaining assets, trace unauthorized activity, and guide you through the process of regaining control. Time is critical in these cases — contact our 24/7 support line immediately for priority handling.',
   },
   {
     question: 'Do you charge upfront fees for recovery services?',
     answer: 'We offer a free initial case assessment. Our transparent pricing model means you will know the exact cost before any recovery work begins. There are no hidden fees, no surprise charges, and in many cases, if we cannot recover your assets, you do not pay.',
   },
   {
-    question: 'Can you recover assets from a lost seed phrase?',
-    answer: 'In certain scenarios, yes. If you have partial seed phrase information, previous device backups, or other identifying data, our specialists may be able to reconstruct access. Each case is unique — submit your case details for a confidential evaluation by our recovery team.',
+    question: 'Can you recover assets from lost security credentials?',
+    answer: 'In certain scenarios, yes. If you have partial credential information, previous device backups, or other identifying data, our specialists may be able to reconstruct access. Each case is unique — submit your case details for a confidential evaluation by our recovery team.',
   },
   {
     question: 'How do I get started with the recovery process?',
-    answer: 'Getting started is simple. Click the "Start Recovery" button anywhere on our site, fill in the brief intake form with your wallet details, and a certified recovery specialist will contact you within 24 hours with a personalized recovery plan. You can also call our 24/7 support line for immediate assistance.',
+    answer: 'Getting started is simple. Click the "Start Recovery" button anywhere on our site, fill in the brief intake form with your account details, and a certified recovery specialist will contact you within 24 hours with a personalized recovery plan. You can also call our 24/7 support line for immediate assistance.',
   },
 ]
 
@@ -94,7 +94,7 @@ export default function FAQ() {
               <div className="absolute inset-0 bg-cyber-purple/5 rounded-full blur-[40px] pointer-events-none" />
               <img
                 src="/images/nft-defi.png"
-                alt="DeFi Platform"
+                alt="Digital Platform"
                 className="relative w-[200px] h-auto drop-shadow-[0_0_15px_rgba(189,82,235,0.1)]"
               />
             </div>

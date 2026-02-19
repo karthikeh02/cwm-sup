@@ -32,7 +32,7 @@ export default function SecuritySection() {
         <SectionHeading
           badge="Security First"
           title="Complete Ownership and Control of Your Wallet Assets"
-          description="Your wallet is secured with state-of-the-art protection, but only you possess the private keys and recovery phrase. They stay completely out of our reach at all times."
+          description="Your wallet is secured with state-of-the-art protection, but only you possess the security credentials and recovery information. They stay completely out of our reach at all times."
         />
 
         <div className="mt-16 grid lg:grid-cols-2 gap-12 items-center">

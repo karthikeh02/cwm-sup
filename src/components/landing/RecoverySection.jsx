@@ -3,7 +3,7 @@ import NeonButton from '@/components/shared/NeonButton'
 import useScrollAnimation from '@/hooks/useScrollAnimation'
 
 const features = [
-  'Direct support from certified blockchain recovery experts',
+  'Direct support from certified recovery experts',
   'Compatible with 100+ major wallet platforms',
   'End-to-end encrypted recovery process',
 ]
@@ -42,7 +42,7 @@ export default function RecoverySection() {
               Quickly and Safely Recover Access to Your Digital Wallet
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/70">
-              Take full control of your wallet recovery process. Our team of certified blockchain specialists works directly with you to restore access to locked, compromised, or inaccessible wallets from leading platforms including Binance, Coinbase, MetaMask, Trust Wallet, Ledger, Trezor, and more. Skip the complications — our streamlined recovery process gets you back in control with speed, security, and transparency.
+              Take full control of your wallet recovery process. Our team of certified specialists works directly with you to restore access to locked, compromised, or inaccessible wallets from all major platforms including hardware devices, software applications, and web-based accounts. Skip the complications — our streamlined recovery process gets you back in control with speed, security, and transparency.
             </p>
 
             <ul className="mt-8 space-y-4">
@@ -55,7 +55,7 @@ export default function RecoverySection() {
             </ul>
 
             <div className="mt-8">
-              <NeonButton variant="purple" size="lg" href="tel:+18447062190">
+              <NeonButton variant="purple" size="lg" href="tel:+18887690872">
                 Start Recovery
                 <ArrowRight className="h-4 w-4" />
               </NeonButton>

@@ -9,7 +9,7 @@ import RecoverySection from '@/components/landing/RecoverySection'
 import SupportedWallets from '@/components/landing/SupportedWallets'
 import SecuritySection from '@/components/landing/SecuritySection'
 import Testimonials from '@/components/landing/Testimonials'
-import EarnRewards from '@/components/landing/EarnRewards'
+
 import FAQ from '@/components/landing/FAQ'
 import CtaBanner from '@/components/landing/CtaBanner'
 import SectionDivider from '@/components/landing/SectionDivider'
@@ -25,7 +25,7 @@ export default function LandingPage() {
       <PlatformStats />
       <SectionDivider />
       <ServicesGrid />
-      <SectionDivider />
+      <SectionDivider />  
       <HowItWorks />
       <SectionDivider />
       <RecoverySection />
@@ -33,8 +33,6 @@ export default function LandingPage() {
       <SectionDivider />
       <SecuritySection />
       <Testimonials />
-      <SectionDivider />
-      <EarnRewards />
       <SectionDivider />
       <FAQ />
       <CtaBanner />

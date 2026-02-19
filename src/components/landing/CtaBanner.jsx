@@ -25,15 +25,15 @@ export default function CtaBanner() {
               <span className="text-cyber-purple">Digital Experience</span>
             </h2>
             <p className="mt-6 text-base sm:text-lg leading-relaxed text-white/70">
-              Effortlessly recover assets, earn rewards, manage your portfolio, and benefit from advanced digital wallet integration — all in one secure, trusted platform.
+              Effortlessly recover assets, secure your accounts, and benefit from advanced digital wallet integration — all in one secure, trusted platform.
             </p>
 
             <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-4">
-              <NeonButton variant="purple" size="lg" href="tel:+18447062190">
+              <NeonButton variant="purple" size="lg" href="tel:+18887690872">
                 Contact Support
                 <ArrowRight className="h-4 w-4" />
               </NeonButton>
-              <NeonButton variant="outline" size="lg" href="tel:+18447062190">
+              <NeonButton variant="outline" size="lg" href="tel:+18887690872">
                 Talk to Experts
               </NeonButton>
             </div>
@@ -52,7 +52,7 @@ export default function CtaBanner() {
             <div className="absolute inset-0 bg-cyber-purple/8 rounded-full blur-[80px] pointer-events-none" />
             <img
               src="/images/cta-illustration.png"
-              alt="Digital Currency Wallet Platform"
+              alt="Network Vault Tech Platform"
               className="relative w-[200px] sm:w-[260px] lg:w-full lg:max-w-xs h-auto drop-shadow-[0_0_30px_rgba(189,82,235,0.15)] animate-float"
             />
           </div>

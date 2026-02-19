@@ -3,10 +3,10 @@ import SectionHeading from '@/components/shared/SectionHeading'
 import useScrollAnimation from '@/hooks/useScrollAnimation'
 
 const wallets = [
-  'Trezor', 'Ledger', 'Trust Wallet', 'MetaMask', 'Coinbase Wallet',
-  'SafePal', 'Tangem', 'Exodus', 'Phantom', 'Atomic Wallet',
-  'Binance', 'BlueWallet', 'Electrum', 'Mycelium',
-  'Zengo', 'Wasabi', 'KeepKey', 'BitBox', 'Guarda',
+  'Hardware Devices', 'Software Wallets', 'Web Platforms', 'Mobile Apps', 'Desktop Applications',
+  'Cloud Accounts', 'Multi-Factor Systems', 'Cold Storage', 'Hot Storage', 'Browser Extensions',
+  'Payment Platforms', 'Digital Vaults', 'Security Keys', 'Authentication Apps',
+  'Backup Systems', 'Recovery Tools', 'Account Managers', 'Password Managers', 'Digital Safes',
 ]
 
 const row1 = wallets.slice(0, 10)
@@ -32,14 +32,14 @@ export default function SupportedWallets() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Supported Platforms"
-          title="Compatible with 100+ Leading Wallet Platforms"
+          title="Compatible with 100+ Leading Digital Platforms"
           description="From hardware wallets to browser extensions and mobile apps, we support recovery across all major digital currency wallet platforms."
         />
-        {/* Blockchain illustration */}
+        {/* Platform illustration */}
         <div className="flex justify-center mt-10">
           <img
             src="/images/four.jpg"
-            alt="Blockchain Technology"
+            alt="Platform Technology"
             className="w-[200px] sm:w-[260px] lg:w-[320px] h-auto rounded-2xl opacity-85 drop-shadow-[0_0_25px_rgba(189,82,235,0.15)]"
           />
         </div>
@@ -71,7 +71,7 @@ export default function SupportedWallets() {
 
       <div className="mt-10 text-center">
         <p className="text-xs text-white/55">
-          And many more including Binance Smart Chain, Solana, Polygon, Avalanche, and Arbitrum wallets
+          And many more including all major hardware, software, and web-based digital platforms
         </p>
       </div>
     </section>

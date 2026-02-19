@@ -1,4 +1,4 @@
-import { ShieldCheck, TrendingUp, LayoutGrid, ArrowLeftRight } from 'lucide-react'
+import { ShieldCheck, Shield, LayoutGrid, Headphones } from 'lucide-react'
 import GlassCard from '@/components/shared/GlassCard'
 import SectionHeading from '@/components/shared/SectionHeading'
 import useScrollAnimation from '@/hooks/useScrollAnimation'
@@ -6,32 +6,32 @@ import useScrollAnimation from '@/hooks/useScrollAnimation'
 const services = [
   {
     icon: ShieldCheck,
-    title: 'Regain Control of Your Digital Assets',
-    description: 'Recover access to your digital currency wallet using our advanced recovery protocols. Whether your wallet is locked, compromised, or inaccessible, our expert team guides you through a secure restoration process.',
+    title: 'Regain Control of Your Digital Accounts',
+    description: 'Recover access to your digital wallet using our advanced recovery protocols. Whether your account is locked, compromised, or inaccessible, our expert team guides you through a secure restoration process.',
     accent: 'border-t-cyber-purple',
     iconColor: 'text-cyber-purple',
     glow: 'purple',
   },
   {
-    icon: TrendingUp,
-    title: 'Earn Rewards with Full Protection',
-    description: 'Stake your assets and earn up to 70% APR in rewards from verified, authenticated sources. Your earnings are secured through industry-leading protection protocols.',
+    icon: Shield,
+    title: 'Advanced Account Protection',
+    description: 'Proactive security monitoring, threat detection, and real-time alerts keep your accounts protected around the clock. Stay one step ahead with industry-leading protection protocols.',
     accent: 'border-t-cyber-green',
     iconColor: 'text-cyber-green',
     glow: 'green',
   },
   {
     icon: LayoutGrid,
-    title: 'Explore NFT & DeFi Platforms',
-    description: 'Navigate leading NFT marketplaces and decentralized finance platforms with confidence. Manage, trade, and grow your portfolio with expert guidance.',
+    title: 'Multi-Platform Compatibility',
+    description: 'Our services work seamlessly across 100+ platforms including hardware devices, mobile apps, desktop software, and web-based accounts. One solution for all your digital security needs.',
     accent: 'border-t-cyber-pink',
     iconColor: 'text-cyber-pink',
     glow: 'pink',
   },
   {
-    icon: ArrowLeftRight,
-    title: 'Swap Currencies Securely',
-    description: 'Exchange more than 10,000 digital currency pairs through trusted, verified providers. Every swap is secured with enterprise-grade encryption and real-time monitoring.',
+    icon: Headphones,
+    title: '24/7 Expert Technical Support',
+    description: 'Connect with certified specialists any time, day or night. Every support interaction is secured with enterprise-grade encryption and real-time monitoring.',
     accent: 'border-t-cyber-blue',
     iconColor: 'text-cyber-blue',
     glow: 'blue',
@@ -47,7 +47,7 @@ export default function ServicesGrid() {
         <SectionHeading
           badge="Our Services"
           title="A Unified Platform for Countless Assets"
-          description="From wallet recovery to staking rewards, our comprehensive suite of services covers every aspect of digital asset management."
+          description="From account recovery to security audits, our comprehensive suite of services covers every aspect of digital account management."
         />
 
         <div className="mt-16 grid lg:grid-cols-2 gap-12 items-center">
@@ -56,7 +56,7 @@ export default function ServicesGrid() {
             <div className="absolute inset-0 bg-cyber-purple/5 rounded-full blur-[60px] pointer-events-none" />
             <img
               src="/images/swap-exchange.png"
-              alt="Digital Asset Services"
+              alt="Digital Security Services"
               className="relative w-[220px] sm:w-[280px] lg:w-full lg:max-w-sm h-auto drop-shadow-[0_0_25px_rgba(189,82,235,0.12)]"
             />
           </div>

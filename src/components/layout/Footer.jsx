@@ -22,7 +22,7 @@ export default function Footer() {
                 <Shield className="h-5 w-5 text-cyber-purple" />
               </div>
               <span className="text-sm font-bold tracking-wider uppercase text-white">
-                Digital Currency Wallet <span className="text-cyber-purple">Management</span>
+                Network Vault <span className="text-cyber-purple">Tech</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed text-white/60">
@@ -58,11 +58,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:+18447062190"
+                  href="tel:+18887690872"
                   className="inline-flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-cyber-green"
                 >
                   <Phone className="h-4 w-4" />
-                  +1 (844) 706-2190
+                  +1 (888) 769-0872
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm text-white/60">
@@ -76,7 +76,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/50">
-            &copy; {new Date().getFullYear()} Digital Currency Wallet Management. All rights reserved.
+            &copy; {new Date().getFullYear()} Network Vault Tech. All rights reserved.
           </p>
           <p className="text-xs text-white/50">
             Securing digital assets with confidence.
