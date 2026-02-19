@@ -33,7 +33,7 @@ export default function SupportedWallets() {
         <SectionHeading
           badge="Supported Platforms"
           title="Compatible with 100+ Leading Digital Platforms"
-          description="From hardware wallets to browser extensions and mobile apps, we support recovery across all major digital currency wallet platforms."
+          description="From hardware wallets to browser extensions and mobile apps, we support recovery across all major digital wallet platforms."
         />
         {/* Platform illustration */}
         <div className="flex justify-center mt-10">

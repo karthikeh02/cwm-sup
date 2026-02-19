@@ -51,7 +51,7 @@ export default function FAQ() {
         <SectionHeading
           badge="FAQ"
           title="Frequently Asked Questions"
-          description="Find answers to common questions about our digital currency wallet recovery services."
+          description="Find answers to common questions about our digital wallet recovery services."
         />
 
         <div className="mt-16 grid lg:grid-cols-[1fr_auto] gap-12 items-start">
