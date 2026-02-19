@@ -7,7 +7,7 @@ const services = [
   {
     icon: ShieldCheck,
     title: 'Regain Control of Your Digital Assets',
-    description: 'Recover access to your cryptocurrency wallet using our advanced recovery protocols. Whether your wallet is locked, compromised, or inaccessible, our expert team guides you through a secure restoration process.',
+    description: 'Recover access to your digital currency wallet using our advanced recovery protocols. Whether your wallet is locked, compromised, or inaccessible, our expert team guides you through a secure restoration process.',
     accent: 'border-t-cyber-purple',
     iconColor: 'text-cyber-purple',
     glow: 'purple',
@@ -31,7 +31,7 @@ const services = [
   {
     icon: ArrowLeftRight,
     title: 'Swap Currencies Securely',
-    description: 'Exchange more than 10,000 cryptocurrency pairs through trusted, verified providers. Every swap is secured with enterprise-grade encryption and real-time monitoring.',
+    description: 'Exchange more than 10,000 digital currency pairs through trusted, verified providers. Every swap is secured with enterprise-grade encryption and real-time monitoring.',
     accent: 'border-t-cyber-blue',
     iconColor: 'text-cyber-blue',
     glow: 'blue',

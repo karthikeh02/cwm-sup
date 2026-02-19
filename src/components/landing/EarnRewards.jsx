@@ -26,7 +26,7 @@ export default function EarnRewards() {
               Earn Up to 70% APR on Your Digital Assets
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/70">
-              Put your cryptocurrency to work. Stake your assets through our verified partner protocols and earn industry-leading returns with complete transparency. Every staking position is monitored in real-time, with instant alerts and one-click unstaking for full flexibility.
+              Put your digital currency to work. Stake your assets through our verified partner protocols and earn industry-leading returns with complete transparency. Every staking position is monitored in real-time, with instant alerts and one-click unstaking for full flexibility.
             </p>
 
             <ul className="mt-8 space-y-4">

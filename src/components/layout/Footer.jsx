@@ -22,7 +22,7 @@ export default function Footer() {
                 <Shield className="h-5 w-5 text-cyber-purple" />
               </div>
               <span className="text-sm font-bold tracking-wider uppercase text-white">
-                Crypto Wallet <span className="text-cyber-purple">Management</span>
+                Digital Currency Wallet <span className="text-cyber-purple">Management</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed text-white/60">
@@ -76,7 +76,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/50">
-            &copy; {new Date().getFullYear()} Crypto Wallet Management. All rights reserved.
+            &copy; {new Date().getFullYear()} Digital Currency Wallet Management. All rights reserved.
           </p>
           <p className="text-xs text-white/50">
             Securing digital assets with confidence.

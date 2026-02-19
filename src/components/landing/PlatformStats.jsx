@@ -36,7 +36,7 @@ export default function PlatformStats() {
           <div className="flex justify-center lg:justify-end">
             <img
               src="/images/crypto-raw3.svg"
-              alt="Global Crypto Platform"
+              alt="Global Digital Currency Platform"
               className="w-[140px] sm:w-[170px] lg:w-[200px] h-auto opacity-80"
             />
           </div>

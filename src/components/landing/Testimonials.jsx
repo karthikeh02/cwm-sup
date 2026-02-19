@@ -9,7 +9,7 @@ const testimonials = [
     role: 'Ledger Nano X User',
     initials: 'MT',
     stars: 5,
-    quote: 'I thought my crypto was gone forever after my Ledger malfunctioned. The recovery team had my wallet access restored in under 48 hours. Absolutely professional and transparent throughout the entire process.',
+    quote: 'I thought my digital currency was gone forever after my Ledger malfunctioned. The recovery team had my wallet access restored in under 48 hours. Absolutely professional and transparent throughout the entire process.',
     accentColor: 'bg-cyber-purple/20 text-cyber-purple border-cyber-purple/30',
     glow: 'purple',
   },
@@ -62,7 +62,7 @@ export default function Testimonials() {
         <div className="flex justify-center mt-8 mb-4">
           <img
             src="/images/crypto-raw1.svg"
-            alt="Crypto Community"
+            alt="Digital Currency Community"
             className="w-[150px] sm:w-[180px] lg:w-[220px] h-auto opacity-70"
           />
         </div>

@@ -52,7 +52,7 @@ export default function CtaBanner() {
             <div className="absolute inset-0 bg-cyber-purple/8 rounded-full blur-[80px] pointer-events-none" />
             <img
               src="/images/cta-illustration.png"
-              alt="Crypto Wallet Platform"
+              alt="Digital Currency Wallet Platform"
               className="relative w-[200px] sm:w-[260px] lg:w-full lg:max-w-xs h-auto drop-shadow-[0_0_30px_rgba(189,82,235,0.15)] animate-float"
             />
           </div>

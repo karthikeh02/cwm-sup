@@ -4,7 +4,7 @@ import NeonButton from '@/components/shared/NeonButton'
 import BackgroundGrid from '@/components/shared/BackgroundGrid'
 
 const messages = [
-  'Need help recovering access to your cryptocurrency wallet?',
+  'Need help recovering access to your digital currency wallet?',
   'Experiencing issues with a delayed or pending transaction?',
   'Accidentally sent funds to the wrong address and need expert recovery assistance?',
   'Looking for professional support to restore your locked or compromised wallet?',

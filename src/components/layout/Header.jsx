@@ -38,7 +38,7 @@ export default function Header() {
               <Shield className="h-5 w-5 text-cyber-purple" />
             </div>
             <span className="hidden sm:block text-sm font-bold tracking-wider uppercase text-white">
-              Crypto Wallet<br className="sm:hidden lg:block" />
+              Digital Currency Wallet<br className="sm:hidden lg:block" />
               <span className="text-cyber-purple"> Management</span>
             </span>
           </Link>
