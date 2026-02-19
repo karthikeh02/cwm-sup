@@ -6,7 +6,7 @@ import useScrollAnimation from '@/hooks/useScrollAnimation'
 const faqs = [
   {
     question: 'What types of wallets do you support for recovery?',
-    answer: 'We support recovery for over 100 wallet platforms including hardware wallets (Trezor, Ledger, SafePal, Tangem, KeepKey), software wallets (MetaMask, Trust Wallet, Exodus, Phantom, Atomic Wallet), and exchange wallets (Coinbase, Binance, Crypto.com). If your wallet is not listed, contact our team for a personalized assessment.',
+    answer: 'We support recovery for over 100 wallet platforms including hardware wallets (Trezor, Ledger, SafePal, Tangem, KeepKey), software wallets (MetaMask, Trust Wallet, Exodus, Phantom, Atomic Wallet), and exchange wallets (Coinbase, Binance). If your wallet is not listed, contact our team for a personalized assessment.',
   },
   {
     question: 'How long does the recovery process typically take?',

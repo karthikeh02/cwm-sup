@@ -5,7 +5,7 @@ import useScrollAnimation from '@/hooks/useScrollAnimation'
 const wallets = [
   'Trezor', 'Ledger', 'Trust Wallet', 'MetaMask', 'Coinbase Wallet',
   'SafePal', 'Tangem', 'Exodus', 'Phantom', 'Atomic Wallet',
-  'Binance', 'Crypto.com', 'BlueWallet', 'Electrum', 'Mycelium',
+  'Binance', 'BlueWallet', 'Electrum', 'Mycelium',
   'Zengo', 'Wasabi', 'KeepKey', 'BitBox', 'Guarda',
 ]
 
