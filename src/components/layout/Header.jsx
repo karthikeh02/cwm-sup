@@ -38,8 +38,8 @@ export default function Header() {
               <Shield className="h-5 w-5 text-cyber-purple" />
             </div>
             <span className="hidden sm:block text-sm font-bold tracking-wider uppercase text-white">
-              Network Vault<br className="sm:hidden lg:block" />
-              <span className="text-cyber-purple"> Tech</span>
+              Digital Asset<br className="sm:hidden lg:block" />
+              <span className="text-cyber-purple"> Management</span>
             </span>
           </Link>
 
