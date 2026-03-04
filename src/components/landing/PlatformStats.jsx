@@ -15,17 +15,17 @@ export default function PlatformStats() {
       ref={ref}
       className={`relative py-20 overflow-hidden transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-cyber-purple/10 via-cyber-pink/5 to-cyber-purple/10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-purple-50 via-pink-50/50 to-purple-50" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-[1fr_auto] gap-10 items-center">
           {/* Stats */}
           <div className="grid gap-8 sm:grid-cols-3 text-center">
             {stats.map((stat) => (
               <div key={stat.label}>
-                <div className="text-5xl sm:text-6xl font-extrabold text-white drop-shadow-[0_0_20px_rgba(189,82,235,0.3)]">
+                <div className="text-5xl sm:text-6xl font-extrabold text-slate-900">
                   <AnimatedCounter end={stat.value} prefix={stat.prefix || ''} suffix={stat.suffix} />
                 </div>
-                <p className="mt-3 text-sm font-medium text-white/65 uppercase tracking-wider">
+                <p className="mt-3 text-sm font-medium text-slate-500 uppercase tracking-wider">
                   {stat.label}
                 </p>
               </div>

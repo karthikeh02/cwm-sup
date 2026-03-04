@@ -5,7 +5,7 @@ const sections = [
   {
     id: 1,
     title: 'Introduction',
-    content: `At Digital Asset Management, we are committed to safeguarding the privacy and security of our users. This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our platform, services, and website. By accessing or using our services, you agree to the practices described in this policy. We encourage you to read this document carefully to understand how we handle your data.`,
+    content: `At Smart Asset Management, we are committed to safeguarding the privacy and security of our users. This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our platform, services, and website. By accessing or using our services, you agree to the practices described in this policy. We encourage you to read this document carefully to understand how we handle your data.`,
   },
   {
     id: 2,
@@ -50,13 +50,13 @@ const sections = [
       { text: 'When required by law, legal process, or enforceable governmental request.' },
       { text: 'With trusted service partners who assist in delivering our services, bound by strict confidentiality agreements.' },
       { text: 'With analytics providers who process anonymized, aggregated data that cannot identify individual users.' },
-      { text: 'To protect the rights, property, or safety of Digital Asset Management, our users, or the public.' },
+      { text: 'To protect the rights, property, or safety of Smart Asset Management, our users, or the public.' },
     ],
   },
   {
     id: 6,
     title: 'Third-Party Services and Links',
-    content: `Our platform may contain links to third-party websites, services, or applications that are not operated by Digital Asset Management. We are not responsible for the privacy practices, content, or security of these external services. We encourage you to review the privacy policies of any third-party service before providing your information.`,
+    content: `Our platform may contain links to third-party websites, services, or applications that are not operated by Smart Asset Management. We are not responsible for the privacy practices, content, or security of these external services. We encourage you to review the privacy policies of any third-party service before providing your information.`,
   },
   {
     id: 7,
@@ -103,30 +103,30 @@ export default function PrivacyPolicyPage() {
       {/* Hero */}
       <section className="relative pt-32 pb-16 overflow-hidden">
         <BackgroundGrid size={50} opacity={0.02} />
-        <div className="absolute inset-0 bg-gradient-to-b from-cyber-purple/8 via-transparent to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-purple-50/60 via-transparent to-transparent pointer-events-none" />
 
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex h-14 w-14 items-center justify-center rounded-xl border border-cyber-purple/40 bg-cyber-purple/15 mb-6 shadow-[0_0_20px_rgba(189,82,235,0.3)]">
+          <div className="inline-flex h-14 w-14 items-center justify-center rounded-xl border border-purple-200 bg-purple-50 mb-6">
             <Shield className="h-7 w-7 text-cyber-purple" />
           </div>
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">
+          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
             Privacy Policy
           </h1>
-          <p className="mt-3 text-lg text-white/50">Digital Asset Management</p>
-          <p className="mt-2 text-sm text-white/30">Last Updated: February 2026</p>
+          <p className="mt-3 text-lg text-slate-400">Smart Asset Management</p>
+          <p className="mt-2 text-sm text-slate-300">Last Updated: February 2026</p>
         </div>
       </section>
 
       {/* Table of Contents */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 mb-12">
-        <div className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 sm:p-8">
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-white/60 mb-4">Table of Contents</h2>
+        <div className="rounded-2xl border border-gray-200 bg-gray-50 p-6 sm:p-8">
+          <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-500 mb-4">Table of Contents</h2>
           <div className="grid sm:grid-cols-2 gap-2">
             {sections.map((s) => (
               <a
                 key={s.id}
                 href={`#section-${s.id}`}
-                className="text-sm text-white/50 hover:text-cyber-purple transition-colors py-1"
+                className="text-sm text-slate-400 hover:text-cyber-purple transition-colors py-1"
               >
                 {s.id}. {s.title}
               </a>
@@ -141,20 +141,20 @@ export default function PrivacyPolicyPage() {
           <div
             key={s.id}
             id={`section-${s.id}`}
-            className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 sm:p-8 scroll-mt-24"
+            className="rounded-2xl border border-gray-200 bg-white p-6 sm:p-8 scroll-mt-24 shadow-sm"
           >
             <div className="flex items-baseline gap-4 mb-4">
               <span className="text-2xl font-bold text-cyber-purple">{s.id}.</span>
-              <h2 className="text-xl sm:text-2xl font-bold text-white">{s.title}</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-slate-900">{s.title}</h2>
             </div>
-            <p className="text-base leading-[1.8] text-white/60">{s.content}</p>
+            <p className="text-base leading-[1.8] text-slate-500">{s.content}</p>
             {s.list && (
               <ul className="mt-4 space-y-3">
                 {s.list.map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-sm leading-relaxed text-white/55">
+                  <li key={i} className="flex items-start gap-3 text-sm leading-relaxed text-slate-400">
                     <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-cyber-purple shrink-0" />
                     <span>
-                      {item.bold && <strong className="text-white/80">{item.bold} </strong>}
+                      {item.bold && <strong className="text-slate-600">{item.bold} </strong>}
                       {item.text}
                     </span>
                   </li>
@@ -162,9 +162,9 @@ export default function PrivacyPolicyPage() {
               </ul>
             )}
             {s.contact && (
-              <div className="mt-4 space-y-2 text-sm text-white/55">
-                <p>Phone: <a href="tel:+18887690872" className="text-white/70 hover:text-cyber-purple transition-colors">+1 (888) 769-0872</a></p>
-                <p>Response Time: <span className="text-white/70">We aim to respond to all privacy-related inquiries within 48 hours.</span></p>
+              <div className="mt-4 space-y-2 text-sm text-slate-400">
+                <p>Phone: <a href="tel:+18887690872" className="text-slate-500 hover:text-cyber-purple transition-colors">+1 (888) 769-0872</a></p>
+                <p>Response Time: <span className="text-slate-500">We aim to respond to all privacy-related inquiries within 48 hours.</span></p>
               </div>
             )}
           </div>

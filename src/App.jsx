@@ -8,7 +8,7 @@ import PrivacyPolicyPage from '@/pages/PrivacyPolicyPage'
 
 function App() {
   return (
-    <div className="min-h-screen bg-cyber-black text-white">
+    <div className="min-h-screen bg-white text-slate-800">
       <ScrollToTop />
       <Header />
       <main>

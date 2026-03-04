@@ -47,7 +47,7 @@ export default function StatsBar() {
                   <AnimatedCounter end={stat.value} suffix={stat.suffix} />
                 )}
               </div>
-              <p className="mt-2 text-sm text-white/70">{stat.label}</p>
+              <p className="mt-2 text-sm text-slate-500">{stat.label}</p>
             </GlassCard>
           ))}
         </div>

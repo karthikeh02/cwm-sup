@@ -12,19 +12,19 @@ export default function CtaBanner() {
       className={`relative py-32 overflow-hidden transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-radial from-cyber-purple/15 via-cyber-black to-cyber-black" />
+      <div className="absolute inset-0 bg-gradient-to-b from-purple-50 via-white to-white" />
       <BackgroundGrid size={60} opacity={0.02} />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-cyber-purple/10 blur-[150px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-purple-100/50 blur-[150px] pointer-events-none" />
 
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text side */}
           <div className="text-center lg:text-left">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-white">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900">
               One Wallet Platform to Power Your Entire{' '}
               <span className="text-cyber-purple">Digital Experience</span>
             </h2>
-            <p className="mt-6 text-base sm:text-lg leading-relaxed text-white/70">
+            <p className="mt-6 text-base sm:text-lg leading-relaxed text-slate-500">
               Effortlessly recover assets, secure your accounts, and benefit from advanced digital wallet integration — all in one secure, trusted platform.
             </p>
 
@@ -38,22 +38,22 @@ export default function CtaBanner() {
               </NeonButton>
             </div>
 
-            <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-6 text-xs text-white/55">
+            <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-6 text-xs text-slate-400">
               <span>Available 24/7</span>
-              <span className="text-cyber-purple/50">&#9670;</span>
+              <span className="text-purple-300">&#9670;</span>
               <span>Trusted by 14M+ Users</span>
-              <span className="text-cyber-purple/50">&#9670;</span>
+              <span className="text-purple-300">&#9670;</span>
               <span>Established 2016</span>
             </div>
           </div>
 
           {/* Image side */}
           <div className="flex items-center justify-center relative">
-            <div className="absolute inset-0 bg-cyber-purple/8 rounded-full blur-[80px] pointer-events-none" />
+            <div className="absolute inset-0 bg-purple-50/50 rounded-full blur-[80px] pointer-events-none" />
             <img
               src="/images/cta-illustration.png"
-              alt="Digital Asset Management Platform"
-              className="relative w-[200px] sm:w-[260px] lg:w-full lg:max-w-xs h-auto drop-shadow-[0_0_30px_rgba(189,82,235,0.15)] animate-float"
+              alt="Smart Asset Management Platform"
+              className="relative w-[200px] sm:w-[260px] lg:w-full lg:max-w-xs h-auto drop-shadow-[0_10px_30px_rgba(147,51,234,0.1)] animate-float"
             />
           </div>
         </div>

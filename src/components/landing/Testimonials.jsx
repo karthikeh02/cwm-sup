@@ -10,7 +10,7 @@ const testimonials = [
     initials: 'MT',
     stars: 5,
     quote: 'I thought my funds were gone forever after my device malfunctioned. The recovery team had my wallet access restored in under 48 hours. Absolutely professional and transparent throughout the entire process.',
-    accentColor: 'bg-cyber-purple/20 text-cyber-purple border-cyber-purple/30',
+    accentColor: 'bg-purple-100 text-cyber-purple border-purple-200',
     glow: 'purple',
   },
   {
@@ -19,7 +19,7 @@ const testimonials = [
     initials: 'SL',
     stars: 5,
     quote: 'After a phishing attack compromised my online account, I was desperate. Their security team helped me secure my remaining assets and guided me through the entire recovery process. Could not recommend them more highly.',
-    accentColor: 'bg-cyber-green/20 text-cyber-green border-cyber-green/30',
+    accentColor: 'bg-green-100 text-cyber-green border-green-200',
     glow: 'green',
   },
   {
@@ -28,7 +28,7 @@ const testimonials = [
     initials: 'DK',
     stars: 5,
     quote: 'Lost access to my mobile wallet with a significant amount in stored funds. The team recovered everything and even helped me improve my security setup. Their 24/7 support made all the difference during a stressful time.',
-    accentColor: 'bg-cyber-pink/20 text-cyber-pink border-cyber-pink/30',
+    accentColor: 'bg-pink-100 text-cyber-pink border-pink-200',
     glow: 'pink',
   },
 ]
@@ -70,18 +70,18 @@ export default function Testimonials() {
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((t) => (
             <GlassCard key={t.name} glow={t.glow} className="p-8 flex flex-col">
-              <Quote className="h-8 w-8 text-white/10 mb-4" />
+              <Quote className="h-8 w-8 text-gray-200 mb-4" />
               <StarRating count={t.stars} />
-              <p className="mt-4 flex-1 text-sm leading-relaxed text-white/70">
+              <p className="mt-4 flex-1 text-sm leading-relaxed text-slate-500">
                 &ldquo;{t.quote}&rdquo;
               </p>
-              <div className="mt-6 flex items-center gap-3 pt-6 border-t border-white/5">
+              <div className="mt-6 flex items-center gap-3 pt-6 border-t border-gray-100">
                 <div className={`flex h-10 w-10 items-center justify-center rounded-full border text-xs font-bold ${t.accentColor}`}>
                   {t.initials}
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-white">{t.name}</p>
-                  <p className="text-xs text-white/55">{t.role}</p>
+                  <p className="text-sm font-semibold text-slate-900">{t.name}</p>
+                  <p className="text-xs text-slate-400">{t.role}</p>
                 </div>
               </div>
             </GlassCard>

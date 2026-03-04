@@ -11,13 +11,13 @@ const items = [
 
 export default function TrustMarquee() {
   return (
-    <div className="relative overflow-hidden bg-cyber-purple/10 border-b border-cyber-purple/20 pt-18">
+    <div className="relative overflow-hidden bg-purple-50 border-b border-purple-100 pt-18">
       <div className="animate-marquee flex whitespace-nowrap py-3">
         {[...items, ...items].map((item, i) => (
-          <div key={i} className="flex items-center gap-2 mx-8 text-sm text-white/80">
+          <div key={i} className="flex items-center gap-2 mx-8 text-sm text-slate-600">
             <item.icon className="h-4 w-4 text-cyber-purple shrink-0" />
             <span>{item.text}</span>
-            <span className="ml-6 text-cyber-purple/50">&#9670;</span>
+            <span className="ml-6 text-purple-300">&#9670;</span>
           </div>
         ))}
       </div>

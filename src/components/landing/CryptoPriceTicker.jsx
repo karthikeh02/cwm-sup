@@ -63,15 +63,15 @@ export default function CryptoPriceTicker() {
   if (items.length === 0) return null
 
   return (
-    <div className="relative overflow-hidden border-b border-white/5 bg-cyber-black/80 backdrop-blur-sm">
-      <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-cyber-black to-transparent z-10 pointer-events-none" />
-      <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-cyber-black to-transparent z-10 pointer-events-none" />
+    <div className="relative overflow-hidden border-b border-gray-100 bg-white">
+      <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+      <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
       <div className="animate-marquee flex whitespace-nowrap py-2.5">
         {[...items, ...items, ...items, ...items].map((coin, i) => (
           <div key={`${coin.id}-${i}`} className="flex items-center gap-3 mx-6 shrink-0">
-            <span className="text-xs font-bold text-white/90">{coin.symbol}</span>
-            <span className="text-xs font-mono text-white/70">${formatPrice(coin.price)}</span>
+            <span className="text-xs font-bold text-slate-800">{coin.symbol}</span>
+            <span className="text-xs font-mono text-slate-500">${formatPrice(coin.price)}</span>
             <span className={`flex items-center gap-0.5 text-xs font-medium ${coin.positive ? 'text-cyber-green' : 'text-cyber-pink'}`}>
               {coin.positive
                 ? <TrendingUp className="h-3 w-3" />
@@ -79,7 +79,7 @@ export default function CryptoPriceTicker() {
               }
               {Math.abs(coin.change).toFixed(2)}%
             </span>
-            <span className="ml-4 text-white/10">|</span>
+            <span className="ml-4 text-gray-200">|</span>
           </div>
         ))}
       </div>

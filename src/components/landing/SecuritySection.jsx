@@ -38,11 +38,11 @@ export default function SecuritySection() {
         <div className="mt-16 grid lg:grid-cols-2 gap-12 items-center">
           {/* Image side */}
           <div className="flex items-center justify-center relative">
-            <div className="absolute inset-0 bg-cyber-purple/5 rounded-full blur-[60px] pointer-events-none" />
+            <div className="absolute inset-0 bg-purple-50/50 rounded-full blur-[60px] pointer-events-none" />
             <img
               src="/images/security-shield.png"
               alt="Wallet Security"
-              className="relative w-[200px] sm:w-[260px] lg:w-full lg:max-w-sm h-auto drop-shadow-[0_0_25px_rgba(189,82,235,0.12)]"
+              className="relative w-[200px] sm:w-[260px] lg:w-full lg:max-w-sm h-auto drop-shadow-[0_10px_25px_rgba(147,51,234,0.1)]"
             />
           </div>
 
@@ -56,8 +56,8 @@ export default function SecuritySection() {
                   className="h-12 w-12 shrink-0 object-contain"
                 />
                 <div>
-                  <h3 className="text-base font-bold text-white mb-2">{feature.title}</h3>
-                  <p className="text-sm leading-relaxed text-white/70">{feature.description}</p>
+                  <h3 className="text-base font-bold text-slate-900 mb-2">{feature.title}</h3>
+                  <p className="text-sm leading-relaxed text-slate-500">{feature.description}</p>
                 </div>
               </GlassCard>
             ))}

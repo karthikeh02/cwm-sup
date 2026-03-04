@@ -53,11 +53,11 @@ export default function ServicesGrid() {
         <div className="mt-16 grid lg:grid-cols-2 gap-12 items-center">
           {/* Image side */}
           <div className="flex items-center justify-center relative order-first lg:order-2">
-            <div className="absolute inset-0 bg-cyber-purple/5 rounded-full blur-[60px] pointer-events-none" />
+            <div className="absolute inset-0 bg-purple-50/50 rounded-full blur-[60px] pointer-events-none" />
             <img
               src="/images/swap-exchange.png"
               alt="Digital Security Services"
-              className="relative w-[220px] sm:w-[280px] lg:w-full lg:max-w-sm h-auto drop-shadow-[0_0_25px_rgba(189,82,235,0.12)]"
+              className="relative w-[220px] sm:w-[280px] lg:w-full lg:max-w-sm h-auto drop-shadow-[0_10px_25px_rgba(147,51,234,0.1)]"
             />
           </div>
 
@@ -66,8 +66,8 @@ export default function ServicesGrid() {
             {services.map((service) => (
               <GlassCard key={service.title} glow={service.glow} className={`p-6 border-t-2 ${service.accent}`}>
                 <service.icon className={`h-9 w-9 ${service.iconColor} mb-4`} />
-                <h3 className="text-lg font-bold text-white mb-2">{service.title}</h3>
-                <p className="text-sm leading-relaxed text-white/70">{service.description}</p>
+                <h3 className="text-lg font-bold text-slate-900 mb-2">{service.title}</h3>
+                <p className="text-sm leading-relaxed text-slate-500">{service.description}</p>
               </GlassCard>
             ))}
           </div>

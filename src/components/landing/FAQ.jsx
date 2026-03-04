@@ -60,13 +60,13 @@ export default function FAQ() {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-xl transition-all duration-300 hover:border-white/20"
+                className="rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:border-gray-300"
               >
                 <button
                   onClick={() => toggle(index)}
                   className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left cursor-pointer"
                 >
-                  <span className="text-sm font-semibold text-white sm:text-base">
+                  <span className="text-sm font-semibold text-slate-900 sm:text-base">
                     {faq.question}
                   </span>
                   <ChevronDown
@@ -80,7 +80,7 @@ export default function FAQ() {
                     openIndex === index ? 'max-h-96 pb-6' : 'max-h-0'
                   }`}
                 >
-                  <p className="px-6 text-sm leading-relaxed text-white/70">
+                  <p className="px-6 text-sm leading-relaxed text-slate-500">
                     {faq.answer}
                   </p>
                 </div>
@@ -91,11 +91,11 @@ export default function FAQ() {
           {/* Side illustrations */}
           <div className="hidden lg:flex flex-col items-center gap-8 sticky top-24">
             <div className="relative">
-              <div className="absolute inset-0 bg-cyber-purple/5 rounded-full blur-[40px] pointer-events-none" />
+              <div className="absolute inset-0 bg-purple-50/50 rounded-full blur-[40px] pointer-events-none" />
               <img
                 src="/images/nft-defi.png"
                 alt="Digital Platform"
-                className="relative w-[200px] h-auto drop-shadow-[0_0_15px_rgba(189,82,235,0.1)]"
+                className="relative w-[200px] h-auto drop-shadow-[0_10px_15px_rgba(147,51,234,0.08)]"
               />
             </div>
             <img

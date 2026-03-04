@@ -60,11 +60,11 @@ export default function HowItWorks() {
         {/* Illustration */}
         <div className="flex justify-center mt-10 mb-6">
           <div className="relative">
-            <div className="absolute inset-0 bg-cyber-purple/5 rounded-full blur-[60px] pointer-events-none" />
+            <div className="absolute inset-0 bg-purple-50/50 rounded-full blur-[60px] pointer-events-none" />
             <img
               src="/images/crypto-raw2.svg"
               alt="Recovery Process"
-              className="relative w-[180px] sm:w-[220px] lg:w-[280px] h-auto drop-shadow-[0_0_20px_rgba(189,82,235,0.1)]"
+              className="relative w-[180px] sm:w-[220px] lg:w-[280px] h-auto drop-shadow-[0_10px_20px_rgba(147,51,234,0.08)]"
             />
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function HowItWorks() {
         <div className="relative mt-8">
           {/* Connecting line - desktop only */}
           <div className="absolute top-24 left-0 right-0 hidden lg:block">
-            <div className="mx-auto h-px w-full max-w-5xl bg-gradient-to-r from-cyber-purple/40 via-cyber-pink/40 to-cyber-blue/40" />
+            <div className="mx-auto h-px w-full max-w-5xl bg-gradient-to-r from-purple-200 via-pink-200 to-blue-200" />
           </div>
 
           <div className="relative grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -82,12 +82,12 @@ export default function HowItWorks() {
                 glow={step.glow}
                 className={`p-8 text-center border-t-2 ${step.borderColor}`}
               >
-                <div className={`inline-flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/5 mb-5 font-mono text-lg font-bold ${step.iconColor}`}>
+                <div className={`inline-flex h-12 w-12 items-center justify-center rounded-full border border-gray-200 bg-gray-50 mb-5 font-mono text-lg font-bold ${step.iconColor}`}>
                   {step.number}
                 </div>
                 <step.icon className={`h-8 w-8 mx-auto mb-4 ${step.iconColor}`} />
-                <h3 className="text-lg font-bold text-white mb-3">{step.title}</h3>
-                <p className="text-sm leading-relaxed text-white/70">{step.description}</p>
+                <h3 className="text-lg font-bold text-slate-900 mb-3">{step.title}</h3>
+                <p className="text-sm leading-relaxed text-slate-500">{step.description}</p>
               </GlassCard>
             ))}
           </div>
