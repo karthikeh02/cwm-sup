@@ -4,6 +4,7 @@ import { Shield, Phone, Clock, ArrowUpRight } from 'lucide-react'
 const quickLinks = [
   { label: 'Home', to: '/' },
   { label: 'Privacy Policy', to: '/privacy-policy' },
+  { label: 'Terms & Conditions', to: '/terms-and-conditions' },
 ]
 
 export default function Footer() {

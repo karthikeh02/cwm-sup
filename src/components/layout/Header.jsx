@@ -5,6 +5,7 @@ import { Menu, X, Phone, Shield } from 'lucide-react'
 const navItems = [
   { label: 'Home', to: '/' },
   { label: 'Privacy Policy', to: '/privacy-policy' },
+  { label: 'Terms & Conditions', to: '/terms-and-conditions' },
 ]
 
 export default function Header() {

@@ -5,6 +5,7 @@ import ScrollToTop from '@/components/layout/ScrollToTop'
 import FloatingCTA from '@/components/shared/FloatingCTA'
 import LandingPage from '@/pages/LandingPage'
 import PrivacyPolicyPage from '@/pages/PrivacyPolicyPage'
+import TermsConditionsPage from '@/pages/TermsConditionsPage'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms-and-conditions" element={<TermsConditionsPage />} />
         </Routes>
       </main>
       <Footer />
