@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Shield, Phone, Clock, ArrowUpRight } from 'lucide-react'
+import { Phone, Clock, ArrowUpRight } from 'lucide-react'
 
 const quickLinks = [
   { label: 'Home', to: '/' },
@@ -19,9 +19,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-purple-200 bg-purple-50 shadow-[0_2px_8px_rgba(147,51,234,0.15)]">
-                <Shield className="h-5 w-5 text-cyber-purple" />
-              </div>
+              <img
+                src="/images/logo.jpg"
+                alt="Smart Asset Management"
+                className="h-10 w-10 rounded-lg object-cover shadow-sm"
+              />
               <span className="text-sm font-bold tracking-wider uppercase text-slate-800">
                 Smart Asset <span className="text-cyber-purple">Management</span>
               </span>

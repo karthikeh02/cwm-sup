@@ -3,6 +3,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import ScrollToTop from '@/components/layout/ScrollToTop'
 import FloatingCTA from '@/components/shared/FloatingCTA'
+import DisclaimerModal from '@/components/shared/DisclaimerModal'
 import LandingPage from '@/pages/LandingPage'
 import PrivacyPolicyPage from '@/pages/PrivacyPolicyPage'
 import TermsConditionsPage from '@/pages/TermsConditionsPage'
@@ -21,6 +22,7 @@ function App() {
       </main>
       <Footer />
       <FloatingCTA />
+      <DisclaimerModal />
     </div>
   )
 }

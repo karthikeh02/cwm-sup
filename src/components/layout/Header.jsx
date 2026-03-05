@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, Phone, Shield } from 'lucide-react'
+import { Menu, X, Phone } from 'lucide-react'
 
 const navItems = [
   { label: 'Home', to: '/' },
@@ -35,9 +35,11 @@ export default function Header() {
         <div className="flex h-18 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-purple-200 bg-purple-50 shadow-[0_2px_8px_rgba(147,51,234,0.15)] transition-all duration-300 group-hover:shadow-[0_4px_12px_rgba(147,51,234,0.25)]">
-              <Shield className="h-5 w-5 text-cyber-purple" />
-            </div>
+            <img
+              src="/images/logo.jpg"
+              alt="Smart Asset Management"
+              className="h-10 w-10 rounded-lg object-cover shadow-sm transition-all duration-300 group-hover:shadow-md"
+            />
             <span className="hidden sm:block text-sm font-bold tracking-wider uppercase text-slate-800">
               Smart Asset<br className="sm:hidden lg:block" />
               <span className="text-cyber-purple"> Management</span>
