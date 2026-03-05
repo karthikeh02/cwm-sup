@@ -38,7 +38,7 @@ export default function Header() {
             <img
               src="/images/logo.png"
               alt="Portfolio Management"
-              className="h-12 sm:h-14 w-auto object-contain transition-all duration-300 group-hover:opacity-80"
+              className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 group-hover:opacity-80"
             />
           </Link>
 
