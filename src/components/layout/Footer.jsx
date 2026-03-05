@@ -18,15 +18,12 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
+            <div className="mb-4">
               <img
-                src="/images/logo.jpg"
-                alt="Smart Asset Management"
-                className="h-10 w-10 rounded-lg object-cover shadow-sm"
+                src="/images/logo.png"
+                alt="Portfolio Management"
+                className="h-12 w-auto object-contain"
               />
-              <span className="text-sm font-bold tracking-wider uppercase text-slate-800">
-                Smart Asset <span className="text-cyber-purple">Management</span>
-              </span>
             </div>
             <p className="text-sm leading-relaxed text-slate-500">
               Your trusted partner in digital asset security and recovery. Protecting millions of wallets worldwide since 2016.
@@ -79,7 +76,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-400">
-            &copy; {new Date().getFullYear()} Smart Asset Management. All rights reserved.
+            &copy; {new Date().getFullYear()} Portfolio Management. All rights reserved.
           </p>
           <p className="text-xs text-slate-400">
             Securing digital assets with confidence.

@@ -36,14 +36,10 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <img
-              src="/images/logo.jpg"
-              alt="Smart Asset Management"
-              className="h-10 w-10 rounded-lg object-cover shadow-sm transition-all duration-300 group-hover:shadow-md"
+              src="/images/logo.png"
+              alt="Portfolio Management"
+              className="h-12 sm:h-14 w-auto object-contain transition-all duration-300 group-hover:opacity-80"
             />
-            <span className="hidden sm:block text-sm font-bold tracking-wider uppercase text-slate-800">
-              Smart Asset<br className="sm:hidden lg:block" />
-              <span className="text-cyber-purple"> Management</span>
-            </span>
           </Link>
 
           {/* Desktop Nav */}

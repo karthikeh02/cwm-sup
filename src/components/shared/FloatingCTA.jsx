@@ -2,7 +2,7 @@ import { Phone } from 'lucide-react'
 
 export default function FloatingCTA() {
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <div className="fixed bottom-16 right-6 z-50 flex flex-col items-end gap-3">
       {/* WhatsApp */}
       <a
         href="https://wa.me/15876904970"

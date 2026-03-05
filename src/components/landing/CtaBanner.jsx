@@ -52,7 +52,7 @@ export default function CtaBanner() {
             <div className="absolute inset-0 bg-purple-50/50 rounded-full blur-[80px] pointer-events-none" />
             <img
               src="/images/cta-illustration.png"
-              alt="Smart Asset Management Platform"
+              alt="Portfolio Management Platform"
               className="relative w-[200px] sm:w-[260px] lg:w-full lg:max-w-xs h-auto drop-shadow-[0_10px_30px_rgba(147,51,234,0.1)] animate-float"
             />
           </div>

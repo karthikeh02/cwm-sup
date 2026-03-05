@@ -43,7 +43,7 @@ const sections = [
   {
     id: 5,
     title: 'Intellectual Property',
-    content: 'All content, software, design components, trademarks, logos, and other intellectual property displayed on our platform are solely owned by Smart Asset Management or its licensors. Users may not copy, reproduce, distribute, share, or modify any materials from our platform without prior written consent from Smart Asset Management.',
+    content: 'All content, software, design components, trademarks, logos, and other intellectual property displayed on our platform are solely owned by Portfolio Management or its licensors. Users may not copy, reproduce, distribute, share, or modify any materials from our platform without prior written consent from Portfolio Management.',
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const sections = [
   {
     id: 7,
     title: 'Limitation of Liability',
-    content: 'To the maximum extent permitted by applicable law, Smart Asset Management and its officers, directors, employees, and agents shall not be held liable for:',
+    content: 'To the maximum extent permitted by applicable law, Portfolio Management and its officers, directors, employees, and agents shall not be held liable for:',
     list: [
       { text: 'Any financial losses, including but not limited to loss of funds, profits, or digital assets arising from the use of our services.' },
       { text: 'Any indirect, incidental, special, consequential, or punitive damages, regardless of the cause of action.' },
@@ -97,7 +97,7 @@ export default function TermsConditionsPage() {
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
             Terms and Conditions
           </h1>
-          <p className="mt-3 text-lg text-slate-400">Smart Asset Management</p>
+          <p className="mt-3 text-lg text-slate-400">Portfolio Management</p>
           <p className="mt-2 text-sm text-slate-300">Last Updated: March 2026</p>
         </div>
       </section>
@@ -106,7 +106,7 @@ export default function TermsConditionsPage() {
       <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 mb-12">
         <div className="rounded-2xl border border-gray-200 bg-gray-50 p-6 sm:p-8">
           <p className="text-base leading-relaxed text-slate-500">
-            Welcome to <strong className="text-slate-700">Smart Asset Management</strong>. By accessing or using our services, you agree to these Terms and Conditions that govern your use of our platform. Please read them carefully before proceeding.
+            Welcome to <strong className="text-slate-700">Portfolio Management</strong>. By accessing or using our services, you agree to these Terms and Conditions that govern your use of our platform. Please read them carefully before proceeding.
           </p>
         </div>
       </section>

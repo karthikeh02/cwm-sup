@@ -5,7 +5,7 @@ const sections = [
   {
     id: 1,
     title: 'Introduction',
-    content: `At Smart Asset Management, we are committed to safeguarding the privacy and security of our users. This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our platform, services, and website. By accessing or using our services, you agree to the practices described in this policy. We encourage you to read this document carefully to understand how we handle your data.`,
+    content: `At Portfolio Management, we are committed to safeguarding the privacy and security of our users. This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our platform, services, and website. By accessing or using our services, you agree to the practices described in this policy. We encourage you to read this document carefully to understand how we handle your data.`,
   },
   {
     id: 2,
@@ -50,13 +50,13 @@ const sections = [
       { text: 'When required by law, legal process, or enforceable governmental request.' },
       { text: 'With trusted service partners who assist in delivering our services, bound by strict confidentiality agreements.' },
       { text: 'With analytics providers who process anonymized, aggregated data that cannot identify individual users.' },
-      { text: 'To protect the rights, property, or safety of Smart Asset Management, our users, or the public.' },
+      { text: 'To protect the rights, property, or safety of Portfolio Management, our users, or the public.' },
     ],
   },
   {
     id: 6,
     title: 'Third-Party Services and Links',
-    content: `Our platform may contain links to third-party websites, services, or applications that are not operated by Smart Asset Management. We are not responsible for the privacy practices, content, or security of these external services. We encourage you to review the privacy policies of any third-party service before providing your information.`,
+    content: `Our platform may contain links to third-party websites, services, or applications that are not operated by Portfolio Management. We are not responsible for the privacy practices, content, or security of these external services. We encourage you to review the privacy policies of any third-party service before providing your information.`,
   },
   {
     id: 7,
@@ -112,7 +112,7 @@ export default function PrivacyPolicyPage() {
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
             Privacy Policy
           </h1>
-          <p className="mt-3 text-lg text-slate-400">Smart Asset Management</p>
+          <p className="mt-3 text-lg text-slate-400">Portfolio Management</p>
           <p className="mt-2 text-sm text-slate-300">Last Updated: February 2026</p>
         </div>
       </section>
