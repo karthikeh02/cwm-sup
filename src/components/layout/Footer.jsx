@@ -18,12 +18,15 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <div className="mb-4">
+            <div className="flex items-center gap-3 mb-4">
               <img
                 src="/images/logo.png"
                 alt="Portfolio Management"
-                className="h-12 w-auto object-contain"
+                className="h-14 w-auto object-contain"
               />
+              <span className="text-sm font-bold tracking-wider uppercase text-slate-800">
+                Portfolio <span className="text-cyber-purple">Management</span>
+              </span>
             </div>
             <p className="text-sm leading-relaxed text-slate-500">
               Your trusted partner in digital asset security and recovery. Protecting millions of wallets worldwide since 2016.

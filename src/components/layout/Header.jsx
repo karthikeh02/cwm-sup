@@ -38,8 +38,11 @@ export default function Header() {
             <img
               src="/images/logo.png"
               alt="Portfolio Management"
-              className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 group-hover:opacity-80"
+              className="h-14 sm:h-16 w-auto object-contain transition-all duration-300 group-hover:opacity-80"
             />
+            <span className="hidden sm:block text-sm font-bold tracking-wider uppercase text-slate-800">
+              Portfolio <span className="text-cyber-purple">Management</span>
+            </span>
           </Link>
 
           {/* Desktop Nav */}
