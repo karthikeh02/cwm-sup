@@ -40,9 +40,6 @@ export default function Header() {
               alt="Portfolio Management"
               className="h-14 sm:h-16 w-auto object-contain transition-all duration-300 group-hover:opacity-80"
             />
-            <span className="hidden sm:block text-sm font-bold tracking-wider uppercase text-slate-800">
-              Portfolio <span className="text-cyber-purple">Management</span>
-            </span>
           </Link>
 
           {/* Desktop Nav */}
