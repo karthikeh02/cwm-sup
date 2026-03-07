@@ -62,11 +62,11 @@ export default function Header() {
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
             <a
-              href="tel:+18887690850"
+              href="tel:+18887690872"
               className="inline-flex items-center gap-2 rounded-lg border border-cyber-purple bg-cyber-purple px-4 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base font-bold text-white shadow-[0_2px_10px_rgba(147,51,234,0.3)] transition-all duration-300 hover:bg-purple-700 hover:shadow-[0_4px_16px_rgba(147,51,234,0.4)]"
             >
               <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
-              +1 (888) 769-0850
+              +1 (888) 769-0872
             </a>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -99,11 +99,11 @@ export default function Header() {
             </Link>
           ))}
           <a
-            href="tel:+18887690850"
+            href="tel:+18887690872"
             className="flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-medium text-cyber-purple hover:bg-purple-50"
           >
             <Phone className="h-4 w-4" />
-            +1 (888) 769-0850
+            +1 (888) 769-0872
           </a>
         </div>
       </div>

@@ -163,7 +163,7 @@ export default function PrivacyPolicyPage() {
             )}
             {s.contact && (
               <div className="mt-4 space-y-2 text-sm text-slate-400">
-                <p>Phone: <a href="tel:+18887690850" className="text-slate-500 hover:text-cyber-purple transition-colors">+1 (888) 769-0850</a></p>
+                <p>Phone: <a href="tel:+18887690872" className="text-slate-500 hover:text-cyber-purple transition-colors">+1 (888) 769-0872</a></p>
                 <p>Response Time: <span className="text-slate-500">We aim to respond to all privacy-related inquiries within 48 hours.</span></p>
               </div>
             )}

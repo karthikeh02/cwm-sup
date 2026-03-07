@@ -165,7 +165,7 @@ export default function TermsConditionsPage() {
             If you have any questions or concerns regarding these Terms and Conditions, please contact us:
           </p>
           <div className="mt-4 space-y-2 text-sm text-slate-400">
-            <p>Phone: <a href="tel:+18887690850" className="text-slate-500 hover:text-cyber-purple transition-colors">+1 (888) 769-0850</a></p>
+            <p>Phone: <a href="tel:+18887690872" className="text-slate-500 hover:text-cyber-purple transition-colors">+1 (888) 769-0872</a></p>
             <p>Availability: <span className="text-slate-500">24/7 Expert Support</span></p>
           </div>
         </div>
