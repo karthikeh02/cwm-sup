@@ -1,8 +1,12 @@
 import { Phone } from 'lucide-react'
+import ContactFormPopup from './ContactFormPopup'
 
 export default function FloatingCTA() {
   return (
     <div className="fixed bottom-16 right-6 z-50 flex flex-col items-end gap-3">
+      {/* Contact Form */}
+      <ContactFormPopup />
+
       {/* WhatsApp */}
       <a
         href="https://wa.me/15876904970"
